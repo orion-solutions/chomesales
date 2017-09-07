@@ -1,5 +1,5 @@
 <?php
 
-  header(Location="/chomes/home/Landing.html");
+  header( 'Location: http://www.creativehomesales.org/home/Landing.html' ) ;
 
 ?>
