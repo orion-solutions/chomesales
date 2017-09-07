@@ -3,7 +3,7 @@
 <head>
     <title>Home</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="/Style/Landing.css" />
+    <link rel="stylesheet" type="text/css" href="/chomes/Style/Landing.css" />
 	  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 	  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
 </head>
@@ -11,22 +11,16 @@
     <header>
         <div class="navbar">
             <p id="SM">Joyce and Martha</p>
-            <ul>
-                <li><a class="active" href="/home/Landing.html"><span>Home</span></a></li>
-                <li><span>Property Search</span></li>
-                      <div class="navbar">
-                        <ul>
-                          <li><a href="/property-search/aboutftk.html"><span>About FirstToKnow</span></a></li>
-                          <li><a><span></span></a></li>
-                        </ul>
-                      </div>
-                <li><span>Sell Your Home</span></li>
-                      <div class="navbar">
-                <li><span>Featured Listings</span></li>
-                <li><span>Favorite Sites</span><li>
-                <li><span>About Us</span></li>
-                <li><a class="last" href="/contact-us/Contact.html" target="_blank"><span>Contact Us</span></a></li>
-            </ul>
+                  <div class="dropdown">
+                      <p><a onclick="myFunction()" class="dropbtn"><span>Property Search</span></a><p>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="/property-search/aboutftk.html"><span>About 1st To Know</span></a>
+                            <a href="/property-search/ptb.html"><span>Preparing To Buy</span></a>
+                            <a href="/property-search/mreports.html"><span>Market Reports</span></a>
+                            <a href="/property-search/get-preapproved.html"><span>Get Pre-Approved</span></a>
+                            <a href="/property-search/psearch.html"><span>Property Search</span></a>
+                        </div>
+                  </div>
         </div>
     </header>
     <hr />
