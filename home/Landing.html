@@ -1,28 +1,44 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
   <title>Home</title>
   <meta charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="/chomes/Style/Landing.css" />
+  <link rel="stylesheet" type="text/css" href="http://www.creativehomesales.org/style/landing.css" />
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
 </head>
 
 <body>
+  <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
   <header>
     <div class="navbar">
       <p id="SM">Joyce and Martha</p>
       <div class="dropdown">
         <p><a onclick="myFunction()" class="dropbtn"><span>Property Search</span></a></p>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="/property-search/aboutftk.html"><span>About 1st To Know</span></a>
-              <a href="/property-search/ptb.html"><span>Preparing To Buy</span></a>
-              <a href="/property-search/mreports.html"><span>Market Reports</span></a>
-              <a href="/property-search/get-preapproved.html"><span>Get Pre-Approved</span></a>
-              <a href="/property-search/psearch.html"><span>Property Search</span></a>
-            </div>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="/property-search/aboutftk.html"><span>About 1st To Know</span></a>
+          <a href="/property-search/ptb.html"><span>Preparing To Buy</span></a>
+          <a href="/property-search/mreports.html"><span>Market Reports</span></a>
+          <a href="/property-search/get-preapproved.html"><span>Get Pre-Approved</span></a>
+          <a href="/property-search/psearch.html"><span>Property Search</span></a>
+        </div>
       </div>
       <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">Dropdown</button>
