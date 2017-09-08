@@ -1,5 +1,5 @@
 header {
-  align-content: center;
+  text-align: center;
 }
 /* Dropdown Button */
 
@@ -24,7 +24,7 @@ header {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: inline;
   text-align: center;
 }
 
