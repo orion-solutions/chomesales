@@ -21,7 +21,8 @@
 
 .dropdown {
   position: relative;
-  display: inline;
+  display: inline-block;
+  text-align: center;
 }
 
 
