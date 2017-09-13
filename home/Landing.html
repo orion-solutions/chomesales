@@ -12,7 +12,7 @@
 <body>
   <script>
     /* When the user clicks on the button,
-    toggle between hiding and showing the dropdown content */
+        toggle between hiding and showing the dropdown content */
     function myFunction() {
       document.getElementById("myDropdown").classList.toggle("show");
     }
@@ -30,20 +30,28 @@
   <header>
     <div class="navbar">
       <p id="jm">C R E A T I V E</p>
-    </div>
+      <ul>
+        <p><span class="navbar"><a href="/chomes/home/Landing.html">Home</a></span></p>
+        <p onclick="myFunction()" class="dropbtn"><span class="navbar">Property Search<span></p>
+          <ul id="myDropdown" class="dropdown-content">
+            <li href="/chomes/property-search/aboutftk.html"><span class="navbar">About 1st To Know</span></li>
+            <li href="/chomes/property-search/ptb.html"><span class="navbar">Preparing To Buy</span></li>
+            <li href="/chomes/property-search/mreports.html"><span class="navbar">Market Reports</span></li>
+            <li href="/chomes/property-search/get-preapproved.html"><span class="navbar">Get Pre-Approved</span></li>
+            <li href="/chomes/property-search/psearch.html"><span class="navbar">Property Search</span></li>
+          </ul>
+      </ul>
   </header>
   <hr />
 
   <div class="body" id="joyce">
     <img src="http://www.redata.com/100042/reo/agents/406046ax.jpg" alt="Joyce Austin" data-pagespeed-url-hash="2270356812" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-    <p>Thank you for visiting my page. Feel free to look around and learn a little bit more about me. I look forward to meeting you, and helping you realize your dreams of owning the home you have always wanted.</p>
+    <p id="about-joyce" class="body-paragraph">This is Joyce Austin, a realtor for Real Estate One.</p>
   </div>
-
-  <hr />
 
   <div class="body" id="martha">
     <img>
-    <p></p>
+    <p>This is Martha Ehlert, also a realtor for Real Estate One.</p>
   </div>
   <hr />
   <footer>
