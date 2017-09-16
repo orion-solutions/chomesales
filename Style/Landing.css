@@ -5,21 +5,6 @@
   font-size: 1.6em;
 }
 
-li {
-  list-style-type: none;
-  display: inline;
-  position: relative;
-}
-
-ul ul {
-  position: absolute;
-  display: none;
-}
-
-li:hover ul {
-  display: block;
-}
-
 .dropdown {
   margin: 7px;
   padding: 3px;
@@ -30,8 +15,17 @@ li:hover ul {
 .dropdown-content {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  display: none;
+  list-style-type: none;
+}
+
+ul ul {
   position: absolute;
+  display: none;
+}
+
+li:hover ul {
+  position: absolute;
+  display: block;
 }
 
 li a {
