@@ -32,7 +32,7 @@ li a {
 }
 
 ul ul {
-  position: absolute;
+  position: relative;
   display: none;
 }
 
