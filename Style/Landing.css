@@ -4,6 +4,11 @@
   font-family: 'Occupied';
   font-size: 1.6em;
 }
+
+li {
+  list-style-type: none;
+}
+
 .dropdown {
   margin: 7px;
   padding: 3px;
