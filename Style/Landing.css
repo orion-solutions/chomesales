@@ -9,6 +9,7 @@ li {
   text-decoration: none;
   color: rgb(0,0,0);
   display: inline;
+  position: relative;
 }
 
 li a {
