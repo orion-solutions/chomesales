@@ -21,3 +21,8 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+li a {
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
