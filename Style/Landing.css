@@ -6,7 +6,7 @@
 }
 
 .dropdown {
-  display: inline;
+  display: inline !important;
   margin: 7px;
   padding: 3px;
   text-decoration: none;
