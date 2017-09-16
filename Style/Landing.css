@@ -1,3 +1,22 @@
-header {
+#navbar {
   text-align: center;
+}
+.dropdown {
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+.dropdown-content {
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: inline;
+  position: relative;
+}
+ul ul {
+  position: absolute;
+  display: none;
+}
+li:hover ul {
+  display: block;
 }
