@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Home</title>
+  <title>Creative Home Sales</title>
   <meta charset="utf-8" />
   <link rel="stylesheet" type="text/css" href="http://www.creativehomesales.org/style/landing.css" />
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
@@ -10,37 +10,49 @@
 </head>
 
 <body>
-  <script>
-    /* When the user clicks on the button,
-    toggle between hiding and showing the dropdown content */
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function(e) {
-      if (!e.target.matches('.dropbtn')) {
-        var myDropdown = document.getElementById("myDropdown");
-        if (myDropdown.classList.contains('show')) {
-          myDropdown.classList.remove('show');
-        }
-      }
-    }
-  </script>
   <header>
-    <div class="dropdown">
-      <p><span class="navbar"><a href="/chomes/home/Landing.html">Home</a></span></p>
-      <p onclick="myFunction()" class="dropbtn"><span class="navbar">Property Search<span></p>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="/chomes/property-search/aboutftk.html"><span class="navbar">About 1st To Know</span></a>
-            <a href="/chomes/property-search/ptb.html"><span class="navbar">Preparing To Buy</span></a>
-            <a href="/chomes/property-search/mreports.html"><span class="navbar">Market Reports</span></a>
-            <a href="/chomes/property-search/get-preapproved.html"><span class="navbar">Get Pre-Approved</span></a>
-            <a href="/chomes/property-search/psearch.html"><span class="navbar">Property Search</span></a>
-          </div>
+    <div id="navbar">
+      <p id="CHS">Creative Home Sales</p>
+      <ul class="menu">
+        <li class="dropdown">
+          <a href="/chomes/home/Landing.html">Home</a>
+          <a href="">Property Search</a>
+            <ul>
+              <li><a href="http://www.creativehomesales.org/psearch/aboutftk.html">About First To Know</a></li>
+              <li><a href="http://www.creativehomesales.org/psearch/preparation.html">Preparing To Buy</a></li>
+              <li><a href="http://www.creativehomesales.org/psearch/marketreports.html">Market Reports</a></li>
+              <li><a href="http://www.creativehomesales.org/psearch/preapproval.html">Get Pre-Approved</a></li>
+              <li><a href="http://www.creativehomesales.org/psearch/propertysearch.html">Property Search</a></li>
+            </ul>
+          <a href="">Sell Your Home</a>
+            <ul>
+              <li><a href="http://www.creativehomesales.org/sellyourhome/whatismyhomeworth.html">What is my Home Worth?</a></li>
+              <li><a href="http://www.creativehomesales.org/psearch/marketreports.html">Market Reports</a></li>
+            </ul>
+          <a href="/chomes/featured/flistings.html">Featured Listings</a>
+          <a href="/chomes/featured/favoritesites.html">Favorite Sites</a>
+          <a href="">1st To Know</a>
+            <ul>
+              <li><a href="http://www.creativehomesales.org/firsttoknow/aboutftk.html">About 1st To Know</a></li>
+              <li><a href="http://www.creativehomesales.org/firsttoknow/signup.html">Signup for a Free Account!</a></li>
+              <li><a href="http://www.creativehomesales.org/firsttoknow/login.html">Login to your Account!</a></li>
+            </ul>
+          <a href="">Get To Know Us</a>
+            <ul>
+              <li><a href="http://www.creativehomesales.org/about-us/About.html">About Us</a><li>
+              <li><a href="http://www.creativehomesales.org/about-us/Testimonials.html">Testimonials</a></li>
+              <li><a href="http://www.creativehomesales.org/news/News.html">Real Estate News</a></li>
+            </ul>
+        </li>
+      </ul>
     </div>
   </header>
   <hr />
+
+  <div id="slogan">
+    <h1 class="h1s">What's your dream?</h1>
+    <h2 class="h2s">Let us make it a reality!</h2>
+  </div>
 
   <div class="body" id="joyce">
     <img src="http://www.redata.com/100042/reo/agents/406046ax.jpg" alt="Joyce Austin" data-pagespeed-url-hash="2270356812" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
