@@ -7,6 +7,17 @@
 
 li {
   list-style-type: none;
+  display: inline;
+  position: relative;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+li:hover ul {
+  display: block;
 }
 
 .dropdown {
