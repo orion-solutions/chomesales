@@ -1,44 +1,44 @@
 #navbar {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.75);
-  font-family: 'Occupied';
-  font-size: 1.6em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    font-family: 'Occupied';
+    font-size: 1.6em;
 }
 
 li {
-  text-decoration: none;
-  color: rgb(0,0,0);
-  display: inline;
-  position: relative;
+    text-decoration: none;
+    color: rgb(0,0,0);
+    display: inline;
+    position: relative;
 }
 
-li a {
-  text-decoration: none;
-  color: rgb(0,0,0);
-}
+    li a {
+        text-decoration: none;
+        color: rgb(0,0,0);
+    }
 
 .dropdown {
-  display: inline !important;
-  list-style-type: none;
-  margin: 7px;
-  padding: 3px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
+    display: inline !important;
+    list-style-type: none;
+    margin: 7px;
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
 .dropdown-content {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  list-style-type: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    list-style-type: none;
 }
 
 ul ul {
-  position: absolute;
-  display: none;
-  left: 0;
-  top: 100%;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 100%;
 }
 
 li:hover ul {
-  display: block;
+    display: block;
 }
