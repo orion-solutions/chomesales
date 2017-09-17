@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\about-us",
+    "\\home",
+    "\\Style"
   ],
-  "SelectedNode": "\\Landing.html",
+  "SelectedNode": "\\Style\\About.css",
   "PreviewInSolutionExplorer": false
 }
